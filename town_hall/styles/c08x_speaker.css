@@ -46,7 +46,6 @@ main {
 /* the styles for the section */
 section {
 	width: 575px;
-	float: right;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
@@ -73,33 +72,19 @@ article img {
 	border: 1px solid black;
 }
 
-/* the styles for the aside */
-aside {
-	width: 215px;
-	float: right;
-	padding: 0 0 20px 20px;
-}
-aside h2 {
-	color: #800000;
-	font-size: 130%;
-	padding: .6em 0 .25em 0;
-}
-
-aside h3 {
-	font-size: 100%;
-	padding-bottom: .25em;
-}
-aside img {
-	padding-bottom: 1em;
-}
-
 /* the styles for the navigation list */
+#nav_list {
+	clear: both;
+	padding: 20px;
+	background-color: #f6bb73;
+	border-top: 3px solid #931420;
+}
 #nav_list ul { 
 	list-style: none;
 	margin-left: 0;
-	margin-bottom: 1.5em; }
+	margin-bottom: 1.5em; 
+}
 #nav_list ul li { 
-	width: 200px;
 	margin-bottom: .5em;
 	border: 2px double black;
 	border-radius: 10px;
@@ -154,12 +139,7 @@ footer p {
 /* media query for screen devices with a maximum width of 650px */
 @media screen and (max-width: 650px) {
     /* Remove floating from section and aside */
-    section, aside {
-        float: none;
-    }
-
-    /* Change width of section and aside to fill the page */
-    section, aside {
+    section {
         width: 100%;
     }
 }
