@@ -131,28 +131,10 @@ footer p {
 	padding: 1em 0;
 }
 
-/* media query for screen media type with a maximum width of 850 pixels */
+/* media queries */
 @media screen and (max-width: 850px) {
-	/* Add styles here that will be applied when the screen width is 850px or less */
 	body {
-		width: 100%;
-		margin: 0;
-		border: none;
-		background-color: #fffded;
 		font-size: 90%;
-	}
-	main {
-		clear: none;
-	}
-	section {
-		width: 100%;
-		float: none;
-		padding: 0 20px 20px 20px;
-	}
-	aside {
-		width: 100%;
-		float: none;
-		padding: 0 0 20px 20px;
 	}
 	#nav_list ul li {
 		border: none;
@@ -164,20 +146,13 @@ footer p {
 	}
 }
 
-/* media query for screen media type with a maximum width of 650 pixels */
 @media screen and (max-width: 650px) {
-	/* Add styles here that will be applied when the screen width is 650px or less */
-	body {
-		font-size: 80%;
-	}
-	article img {
-		width: 100%;
-		margin: 0;
-		border: none;
-	}
-	#nav_list ul li {
-		width: 100%;
-		margin-bottom: 1em;
-	}
 	section {
-	
+		width: 100%;
+		float: none;
+	}
+	aside {
+		width: 100%;
+		float: none;
+	}
+}
