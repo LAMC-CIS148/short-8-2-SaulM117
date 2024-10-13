@@ -163,3 +163,21 @@ footer p {
 		padding: .5em 0 .5em 0;
 	}
 }
+
+/* media query for screen media type with a maximum width of 650 pixels */
+@media screen and (max-width: 650px) {
+	/* Add styles here that will be applied when the screen width is 650px or less */
+	body {
+		font-size: 80%;
+	}
+	article img {
+		width: 100%;
+		margin: 0;
+		border: none;
+	}
+	#nav_list ul li {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	section {
+	
