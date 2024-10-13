@@ -150,3 +150,16 @@ footer p {
         padding-left: 0;
     }
 }
+
+/* media query for screen devices with a maximum width of 650px */
+@media screen and (max-width: 650px) {
+    /* Remove floating from section and aside */
+    section, aside {
+        float: none;
+    }
+
+    /* Change width of section and aside to fill the page */
+    section, aside {
+        width: 100%;
+    }
+}
