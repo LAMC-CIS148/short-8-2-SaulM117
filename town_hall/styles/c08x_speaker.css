@@ -1,4 +1,3 @@
-/* the styles for the elements */
 * {
 	margin: 0;
 	padding: 0;
@@ -130,4 +129,28 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+/* media query for screen media type with a maximum width of 850 pixels */
+@media screen and (max-width: 850px) {
+	/* Add styles here that will be applied when the screen width is 850px or less */
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		background-color: #fffded;
+	}
+	main {
+		clear: none;
+	}
+	section {
+		width: 100%;
+		float: none;
+		padding: 0 20px 20px 20px;
+	}
+	aside {
+		width: 100%;
+		float: none;
+		padding: 0 0 20px 20px;
+	}
 }
