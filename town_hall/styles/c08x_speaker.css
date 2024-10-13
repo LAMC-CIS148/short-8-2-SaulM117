@@ -131,7 +131,7 @@ footer p {
 	padding: 1em 0;
 }
 
-/* media queries */
+/* media query for screen media type with max width 850px */
 @media screen and (max-width: 850px) {
 	body {
 		font-size: 90%;
@@ -142,17 +142,18 @@ footer p {
 		background-image: none;
 	}
 	#nav_list ul li a {
-		padding: .5em 0 .5em 0;
+		padding-left: 0;
 	}
 }
 
+/* media query for screen media type with max width 650px */
 @media screen and (max-width: 650px) {
 	section {
-		width: 100%;
 		float: none;
+		width: 100%;
 	}
 	aside {
-		width: 100%;
 		float: none;
+		width: 100%;
 	}
 }
