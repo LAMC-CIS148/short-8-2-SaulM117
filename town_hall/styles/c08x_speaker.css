@@ -86,10 +86,7 @@ article img {
 }
 #nav_list ul li { 
 	margin-bottom: .5em;
-	border: 2px double black;
 	border-radius: 10px;
-	box-shadow: 3px 3px 0 0 #800000;
-	background-image: url("../images/right.jpg");
 	background-repeat: no-repeat;
 	background-position: 95% center;
 }
@@ -101,7 +98,6 @@ article img {
 	color: black;
 }
 #nav_list ul li a.current {
-	color: #800000;
 }
 
 /* the styles for the footer */
