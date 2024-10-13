@@ -76,6 +76,7 @@ article img {
 /* the styles for the aside */
 aside {
 	width: 215px;
+	float: right;
 	padding: 0 0 20px 20px;
 }
 aside h2 {
@@ -130,29 +131,22 @@ footer p {
 	padding: 1em 0;
 }
 
-/* media query for screen media type with max width 850px */
+/* media query for screen devices with a maximum width of 850px */
 @media screen and (max-width: 850px) {
-	body {
-		font-size: 90%;
-	}
-	#nav_list ul li {
-		border: none;
-		box-shadow: none;
-		background-image: none;
-	}
-	#nav_list ul li a {
-		padding-left: 0;
-	}
-}
+    /* Change base font size to 90% of default */
+    body {
+        font-size: 90%;
+    }
 
-/* media query for screen media type with max width 650px */
-@media screen and (max-width: 650px) {
-	section {
-		float: none;
-		width: 100%;
-	}
-	aside {
-		float: none;
-		width: 100%;
-	}
+    /* Remove border, box shadow, and background image from sidebar list items */
+    #nav_list ul li {
+        border: none;
+        box-shadow: none;
+        background-image: none;
+    }
+
+    /* Remove left padding from sidebar links */
+    #nav_list ul li a {
+        padding-left: 0;
+    }
 }
