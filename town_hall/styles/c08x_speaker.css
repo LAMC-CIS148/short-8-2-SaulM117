@@ -76,7 +76,7 @@ article img {
 #nav_list {
 	clear: both;
 	padding: 20px;
-	border-top: 3px solid #931420;
+	border-top: 3px solid;
 }
 #nav_list ul { 
 	list-style: none;
