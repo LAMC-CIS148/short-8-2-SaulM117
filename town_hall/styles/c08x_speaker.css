@@ -76,7 +76,6 @@ article img {
 #nav_list {
 	clear: both;
 	padding: 20px;
-	border-top: 3px solid;
 }
 #nav_list ul { 
 	list-style: none;
@@ -98,6 +97,11 @@ article img {
 }
 #nav_list ul li a.current {
 }
+
+#nav_list h2 {
+	color: #800000;
+}
+
 
 /* the styles for the footer */
 footer {
